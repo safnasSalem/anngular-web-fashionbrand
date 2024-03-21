@@ -1,0 +1,101 @@
+<!-- <div class="banner">
+    <a href="#">
+    </a>
+</div> -->
+<div class="slider">
+    <div *ngFor="let image of images; let i = index" class="slide"
+        [style.transform]="'translateX(' + (-currentIndex * 100) + '%)'" [class.active]="i === currentIndex">
+        <img [src]="image" alt="Slide Image">
+    </div>
+</div>
+<hr>
+<div class=" theheading">
+    <h1>WHAT WE ARE CREATING? </h1>
+</div>
+<div class="container background">
+    <div class="row">
+        <div class="col-lg-6">
+            <img src="../../../assets/images/C4F1A1E9-E6E6-456A-93E0-D855BBACE49E.png"
+                style="max-height: 100%; width: 100%;" class="img-fluid" alt="Image">
+        </div>
+        <div class="col-lg-6 " style="background-color: rgb(248, 246, 243);">
+            <div class="align-self-center text-center" style="padding: 20px;">
+                <p class="move-text" style="text-align: center;">Fashion is deeply intertwined with individual body
+                    shapes and complexions, shaping
+                    perceptions and inspiring designers to create tailored designs that complement and enhance diverse
+                    physical attributes.
+                </p> <img src="../../../assets/images/different.png" style="max-height: 100%; width: 100%;"
+                    class="img-fluid" alt="Image">
+                <hr style="height: 5px; background-color: black;">
+
+            </div>
+        </div>
+    </div>
+    <!-- <hr> -->
+    <div class="row">
+        <div class="col-lg-6" style="background-color:    rgb(250, 250, 250);">
+            <div class="align-self-center text-center" style="padding: 20px;">
+                <p class="move-text" style="text-align: center;">Fashion is a timeless story that spans generations.
+                    From ancient civilizations to
+                    modern trends, each era leaves its mark on the world of style. It's a narrative of creativity,
+                    innovation, and cultural expression, constantly evolving yet always rooted in our shared history.
+                </p>
+                <!-- <div class="col-lg-6 d-flex justify-content-center">
+                    <img src="../../../assets/images/retro.png" style="max-height: 350px; width: 80%;" class="img-fluid"
+                        alt="Image">
+                </div> -->
+            </div>
+        </div>
+
+    </div>
+    <hr style="height: 2px; background-color: black;">
+    <div class="row">
+        <div class="col-lg-6">
+            <img src="../../../assets/images/photoiph.jpg" style="max-height: 100%; width: 100%;align-items: center;"
+                class="img-fluid" alt="Image">
+        </div>
+        <div class="col-lg-6 " style="background-color: rgb(253, 251, 248);">
+            <div class="align-self-center text-center" style="padding: 20px;">
+                <p class="move-text" style="text-align:  center ;">
+                    In a vibrant city, skilled tailor Milo received a mysterious request for a fabric that tells a
+                    story. With golden threads representing the sun, blues for the river, and greens for mountains, Milo
+                    crafted a masterpiece. The fabric, pulsating with life, captivated all who beheld it. Milo's
+                    creation became a symbol of hope and inspiration, reminding people of the beauty in the world. From
+                    then on, Milo's workshop became a place where every stitch told a tale, and his fabric wove magic
+                    into the lives of all who wore it.
+                </p>
+
+            </div>
+        </div>
+    </div>
+
+</div>
+<hr style="height: 2px; background-color: black;margin-left: 13px;margin-right: 13px;">
+
+<div class="container">
+    <div class="row">
+
+        <div class="col-lg-6" style="background-color:    rgb(247, 246, 244);">
+            <div class="align-self-center text-center" style="padding: 20px;">
+                <img src="../../../assets/images/slee.png" style="width: 100%;max-height: 100%;" class="img-fluid"
+                    alt="Image 1">
+
+            </div>
+        </div>
+        <div class="col-md-6 ">
+            <p class="move-text" style="text-align: center;">Frills, sleeves, hemlines, necklines, bodices, waistlines,
+                and gathers each shape
+                the style of an outfit uniquely. From delicate frills in romantic and bohemian looks to statement
+                sleeves and varied hemlines, these elements offer versatility. Necklines range from off-shoulder to
+                plunging, while bodices include corset-inspired and structured designs. Waistlines define the
+                silhouette with empire, drop, or cinched styles, while gathers add softness or structure. Together,
+                they allow for diverse fashion expressions and endless styling possibilities.
+            </p>
+        </div>
+
+    </div>
+
+
+</div>
+<br>
+<p routerLink="product" style="text-align: center; cursor: pointer;font-weight: bold;">soon..</p>

@@ -1,0 +1,99 @@
+.shop-now {
+    text-align: center;
+  }
+  
+  .product-item {
+    margin-bottom: 20px;
+    position: relative;
+    transition: transform 0.3s ease;
+  }
+  
+  .product-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  .product-item:hover {
+    transform: scale(1.05);
+  }
+  
+  .product-item .product-details {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    color: #fff;
+  }
+  
+  .product-item h3 {
+    margin: 5px 0;
+  }
+  
+  .product-item p {
+    margin: 5px 0;
+  }
+  
+  .product-item button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .product-item button:hover {
+    background-color: #0056b3;
+  }
+  
+  .zoom-in {
+    transform: scale(1.1);
+  }
+  
+
+.shop-now {
+  text-align: center; /* Center align content */
+  padding: 20px; /* Add some padding for spacing */
+}
+
+
+.shop-now h2 {
+  font-size: 24px; /* Set font size */
+  margin-bottom: 10px; /* Add some space below the heading */
+}
+
+.shop-now p {
+  font-size: 16px; /* Set font size */
+  margin-bottom: 20px; /* Add some space below the paragraph */
+}
+
+/* Styles for image */
+.shop-now .container img {
+  max-width: 100%; /* Make the image responsive */
+  height: auto; /* Maintain aspect ratio */
+}
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+  /* Adjust styles as needed */
+  .shop-now h2 {
+      font-size: 20px;
+  }
+  .shop-now p {
+      font-size: 14px;
+  }
+}
+
+/* Media query for even smaller screens */
+@media screen and (max-width: 480px) {
+  /* Adjust styles as needed */
+  .shop-now h2 {
+      font-size: 18px;
+  }
+  .shop-now p {
+      font-size: 12px;
+  }
+}

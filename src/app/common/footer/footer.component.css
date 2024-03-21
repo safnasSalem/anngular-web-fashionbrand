@@ -1,0 +1,34 @@
+
+.footer {
+    background-color: #030303; /* Set background color */
+    padding: 10px; 
+    bottom: 0; /* Align footer to the bottom of the viewport */
+    width: 100%; /* Take full width of the viewport */
+    height: 90px;
+    overflow: hidden;
+    color: #efeeee;
+    position: relative;
+}
+
+.footer h1 {
+    font-size: 28px; /* Set font size for the heading */
+    margin: 0; /* Remove default margin */
+    color: white;
+}
+
+.footer a {
+    display: block; /* Display links as block elements */
+    color: #ffffff; /* Set link color */
+    text-decoration: none; /* Remove default underline */
+    margin-bottom: 3px; /* Add margin between links */
+}
+
+/* Media query for responsiveness */
+@media (max-width: 768px) {
+    .footer {
+        padding: 15px; /* Adjust padding for smaller screens */
+    }
+    .footer h1 {
+        font-size: 20px; /* Adjust font size for smaller screens */
+    }
+}
